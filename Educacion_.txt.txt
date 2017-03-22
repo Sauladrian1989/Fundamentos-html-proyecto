@@ -24,9 +24,52 @@
 
   <h2> EDUCACION</h2>
   <table border="1" cellpadding="0" Cellspacing="0">
+    <tr>
+      <th> Año</th>
+      <th> Intitucion</th>
+      <th>Lugar</th>
+      <th> Grado</th>
+      <th> ¿Culmino?</th>
+    </tr>
+    <tbody>
+      <td> 1995-2001</td>
+      <td> Escuela Primaria Carlos Romo</td>
+      <td> Guadalupe Victoria, Durango,Mex.</td>
+      <td> Primaria</td>
+      <td> Si</td>
+      </tbody>
+    <tbody>
+        <td> 2001-2004</td>
+        <td> Escuela Secundaria Tecnica no, 8</td>
+        <td> Guadalupe Victoria, Durango,Mex.</td>
+        <td> Secuandaria</td>
+        <td> Si</td>
+        </tbody>
+      <tbody>
+          <td> 2001-2007</td>
+          <td> Centro de Bachillerato Tecnologico Industrial y de Servicios no. 42</td>
+          <td> Guadalupe Victoria, Durango,Mex.</td>
+          <td> Preparatoria</td>
+          <td> Si</td>
+      </tbody>
+      <tbody>
+        <td> 2007-2012</td>
+        <td> Intituto Tecnologico de Durango</td>
+        <td> Durango,Dgo.,Mex.</td>
+        <td> Licenciatura</td>
+        <td> Si</td>
+        </tbody>
+      <tbody>
+          <td> 2014-2016</td>
+          <td> Facultad De Economia Contaduria y Administracion</td>
+          <td> Durango,Dgo.,Mex.</td>
+          <td> Posgrado</td>
+          <td> Si</td>
+      </tbody>
+  </table>
+
     <h2> Agregar Estudios</h2>
     <form class="" action="Educacion.html" method="post">
-
       <label for="Año">Año</label><br>
       <select class="Año" name="Año">
         <option value="1">1990</option>
@@ -61,7 +104,8 @@
       <input type="text" name="Nombre" required="Nombre" placeholder="Pedrito Fernandez" autofocus><br>
       <label for="Institucion">Intitucion</label> <input type="text" name="Intitucion" rows="15" cols="15"><br>
       <label for="Culmino">¿Culmino?</label><br>
-      <input type="Radio" name="Si" value="Si"><input type="Radio" name="No" value="No"><br>
+
+      <input type="Radio" name="Si" value="Si">SI<input type="Radio" name="No" value="No">NO<br>
       <input type="submit" Value="Enviar">
     </form>
 </nav>

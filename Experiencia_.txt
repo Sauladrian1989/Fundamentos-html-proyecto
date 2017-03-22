@@ -32,7 +32,10 @@
   <h3> Hobbies y Actividades</h3>
   <audio src="Logo/Hobbies.m4a" controls="autoplay">
 
+
+</nav>
 <footer>
+  
   <h1> <strong> Derechos Reservados</strong></h1>
   <h3> Email: sbs-7@hotmail.com</h3>
   <h3> Telefono: 55-676-101-4189</h3>
